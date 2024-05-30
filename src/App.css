@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.carousel-fade .carousel-inner .carousel-item {
+  transition: opacity .8s ease-in-out;
+  opacity: 0.3; /* Adjust opacity as needed */
+  background-color: black; /* Set background color to black */
+}
+
+.carousel-fade .carousel-inner .active.carousel-item {
+  opacity: 0.9;
+
+}
+
+.carousel-fade .carousel-control-prev,
+.carousel-fade .carousel-control-next {
+  color: black; /* Set arrow color to white */
+}
